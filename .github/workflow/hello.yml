@@ -5,9 +5,18 @@ branches:
 jobs:
 hello:
 runs-on: ubuntu-latest
+stratergy:
+  matrix:
+   node-vertion: [16.18x]
+
 
 steps:
  name: nodejs-1st-app
   run: node index.js
+  -name: npm install
+  run: npm ci
+  -name: tests
+  run: npm test
+
 
 
