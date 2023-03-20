@@ -1,0 +1,9 @@
+{
+  "preeset":["@babel/preset.env"],
+  "plugins":[
+    ["@babel/tranform-runtime",{
+    "regenerator":true 
+   }]
+    ]
+}
+
