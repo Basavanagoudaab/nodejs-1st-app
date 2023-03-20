@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha ./dist/test/Index.test.js  --timeout 30000 ",
     "type": "module"
   },
   "keywords": [],

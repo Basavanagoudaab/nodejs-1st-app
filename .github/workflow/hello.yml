@@ -1,0 +1,13 @@
+name : nodejs-1st-app
+on: push
+branches:
+-nodejs-1st-app
+jobs:
+hello:
+runs-on: ubuntu-latest
+
+steps:
+ name: nodejs-1st-app
+  run: node index.js
+
+
